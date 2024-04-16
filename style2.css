@@ -1,0 +1,242 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	src: url(fonts/CartographMonoCF-Bold.otf);
+	src: url(fonts/CartographMonoCF-Medium.otf);
+	src: url(fonts/CartographMonoCF-Regular.otf);
+font-family: Carto;}
+
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	background-image: url(images/Grungbg-w.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.navbar{
+	padding: 30px 0px;
+	margin-bottom: 80px;
+	display: flex;
+	align-items: center;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #231F20;
+	font-family: Carto;
+	font-size: 16px;
+}
+
+.img_bio {
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	column-gap: 40px;
+    row-gap: 40px;
+}
+
+.img_bio > *{
+	display: flex;
+	flex-basis: 800px;
+}
+
+.Porfile-image{
+	flex-basis: 300px;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.Porfile-image img{
+	display: flex;
+	width: 400px;
+	height: auto;
+
+	
+}
+
+
+.bio {
+	border: 1px solid rgb(234, 0, 255);
+	padding-bottom: 60px;
+}
+
+p{
+	font-family: 'Epilogue', sans-serif;
+	font-weight: 500;
+	font-size: 14px;}
+
+.personal-info h1{
+font-family: 'Epilogue', sans-serif;
+font-weight: 600;
+padding-bottom: 20px;
+}
+
+.bio-text {
+	font-family: 'Epilogue', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.info p{
+	padding-bottom: 20px;
+}
+
+span {
+	font-size: 18px;
+	padding-left: 50px;
+}
+.aboutme{
+	border: 1px solid rgb(155, 14, 160);
+}
+.aboutme h2{
+	font-family: 'Epilogue', sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.bio-text p{
+	font-family: 'Epilogue', sans-serif;
+	font-size: 14px;
+	padding-bottom: 20px;
+	line-height: 1.5;
+}
+
+.wp-logos{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.element {
+	width: 100px;
+	height: 100px;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+/*h3{
+	font-family: cartographMonoCF-Medium;
+	color: #231F20;
+}
+
+.heading-2{
+	padding-top: 50px;
+	margin: 0px 20px 0px 20px;
+}
+
+p{
+	display: block;
+	font-family: cartographMonoCF-Medium;
+	font-weight: 300;
+	font-size: 16px;
+	color: #231F20;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+
+li{
+	display: inline-block;
+	justify-content: space-between;
+}
+
+.about{
+font-family: 'cartographMonoCF-Medium', sans-serif;
+font-size: 14px;
+color: #231F20;
+margin-bottom: 20px;
+}
+.boxmodel{
+	font-family: 'Epilouge', sans-serif;
+	border: 2px solid white;
+	padding: 5px 20px;
+	margin: 200px 60px;
+}
+span{
+	font-family:'Epilouge', sans-serif;
+	margin-left: 40px;
+	font-size: 16px;
+}
+.creative-bio{
+	margin: 20px 150px;
+	padding-right: 50px;
+}
+.heading-3{
+	margin-top: 52px;
+	margin-left: 60px;
+}
+.weapons-container{
+	margin-left:60px;
+	padding-right: 100px;
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
+
+.icons{
+	padding-left: 10px;
+	transition: all 1s;
+}
+.icons:hover {
+	transform: scale(1.1);
+}
+
+	
+*/

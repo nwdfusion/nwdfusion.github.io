@@ -1,0 +1,15 @@
+li{
+	display: inline-block;
+	font-family: Epilouge, sans-serif;
+}
+h1{
+	font-family: cartographMonoCF-Medium;
+	color: #231F20;
+}
+
+P{
+	display: block;
+	font-family: Epilouge, sans-serif;
+	font-size: 16px;
+	color: #231F20;
+	line-height: 1.5em;}
